@@ -8,6 +8,8 @@ cmd /c "cd summerframework-mybatis       && mvn install -DskipTests -Dmaven.java
 cmd /c "cd summerframework-webapi        && mvn install -DskipTests -Dmaven.javadoc.skip=true && cd .. "
 cmd /c "cd summerframework-eureka        && mvn install -DskipTests -Dmaven.javadoc.skip=true && cd .. "
 cmd /c "cd summerframework-openfeign     && mvn install -DskipTests -Dmaven.javadoc.skip=true && cd .. "
+cmd /c "cd summerframework-rabbit     && mvn install -DskipTests -Dmaven.javadoc.skip=true && cd .. "
+cmd /c "cd summerframework-redis     && mvn install -DskipTests -Dmaven.javadoc.skip=true && cd .. "
 cmd /c "cd summerframework-monitor       && mvn install -DskipTests -Dmaven.javadoc.skip=true && cd .. "
 
 pause
